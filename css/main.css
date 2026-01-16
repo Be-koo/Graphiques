@@ -1,0 +1,363 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.Screen {
+  width: 1920px;
+  height: 2000px;
+  background: rgba(1,1,1,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Infos {
+  width: 360px;
+  height: 100%;
+  background: rgba(249,249,249,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Photo {
+  width: 175px;
+  height: 224px;
+  background: url("../images/Photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 124px;
+  left: 51px;
+  overflow: hidden;
+}
+.Intro {
+  width: 258px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 367px;
+  left: 51px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.Paragraphe {
+  width: 258px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 458px;
+  left: 51px;
+  font-family: Inter;
+  font-weight: Regular;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.v2_45 {
+  width: 37px;
+  height: 52px;
+  position: absolute;
+  top: 980px;
+  left: 161px;
+  overflow: hidden;
+}
+.v2_43 {
+  width: 33px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 38px;
+  left: 2px;
+  font-family: Century Gothic;
+  font-weight: Bold;
+  font-size: 12px;
+  opacity: 1;
+  text-align: center;
+}
+.Logo {
+  width: 37px;
+  height: 37px;
+  background: url("../images/Logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Images {
+  width: 100%;
+  height: 1080px;
+  /* background: url("../images/v18_12.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; */
+  opacity: 1;
+  position: absolute;
+  top: 56px;
+  left: 442px;
+  overflow: hidden;
+}
+.ID {
+  width: 369px;
+  height: 536px;
+  background: url("../images/ID.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.Carte {
+  width: 315px;
+  height: 218px;
+  background: url("../images/Carte.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 70px;
+  left: 310px;
+  transform: rotate(-90deg);
+  overflow: hidden;
+}
+.CB {
+  width: 230px;
+  height: 334px;
+  background: url("../images/CB.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 50px;
+  left: 570px;
+  overflow: hidden;
+}
+.Movie {
+  width: 279px;
+  height: 405px;
+  background: url("../images/Movie.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 810px;
+  overflow: hidden;
+}
+.BBT1 {
+  width: 292px;
+  height: 202px;
+  background: url("../images/BBT1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 25px;
+  left: 1099px;
+  overflow: hidden;
+}
+.BBT2 {
+  width: 284px;
+  height: 196px;
+  background: url("../images/BBT2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 242px;
+  left: 1107px;
+  overflow: hidden;
+}
+.BBT3 {
+  width: 284px;
+  height: 197px;
+  background: url("../images/BBT3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 459px;
+  left: 1107px;
+  overflow: hidden;
+}
+.Tarot {
+  width: 458px;
+  height: 278px;
+  background: url("../images/Tarot.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 680px;
+  left: 949px;
+  overflow: hidden;
+}
+.Coins {
+  width: 363px;
+  height: 251px;
+  background: url("../images/Coins.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 460px;
+  left: 718px;
+  transform: rotate(-3deg);
+  overflow: hidden;
+}
+.Keys {
+  width: 354px;
+  height: 421px;
+  background: url("../images/Keys.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 550px;
+  left: 590px;
+  overflow: hidden;
+}
+.Pen {
+  width: 729px;
+  height: 182px;
+  background: url("../images/Pen.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 371px;
+  left: 375px;
+  overflow: hidden;
+}
+.Lip1 {
+  width: 84px;
+  height: 257px;
+  background: url("../images/Lip1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 712px;
+  left: 572px;
+  transform: rotate(5deg);
+  overflow: hidden;
+}
+.Lip2 {
+  width: 92px;
+  height: 307px;
+  background: url("../images/Lip2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 560px;
+  left: 450px;
+  transform: rotate(-7deg);
+  overflow: hidden;
+}
+.Purse {
+  width: 453px;
+  height: 369px;
+  background: url("../images/Purse.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 593px;
+  left: 0px;
+  overflow: hidden;
+}
+.Lolli {
+  width: 325px;
+  height: 95px;
+  background: url("../images/Lolli.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 520px;
+  left: 90px;
+  overflow: hidden;
+}
+
+
+
+.One {
+  width: 600px;
+  height: 369px;
+  background: url("../images/Graph1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1100px;
+  left: 510px;
+  overflow: hidden;
+}
+.Two {
+  width: 600px;
+  height: 369px;
+  background: url("../images/Graph2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1100px;
+  left: 1160px;
+  overflow: hidden;
+}
+.Three {
+  width: 600px;
+  height: 369px;
+  background: url("../images/Graph3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1519px;
+  left: 510px;
+  overflow: hidden;
+}
+.Four {
+  width: 600px;
+  height: 369px;
+  background: url("../images/Graph4.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1519px;
+  left: 1160px;
+  overflow: hidden;
+}
